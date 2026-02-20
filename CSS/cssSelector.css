@@ -1,0 +1,30 @@
+/* 
+Selector Syntax
+selectorType{
+property: property value;
+
+} */
+ /* 1.Element SElector */
+ 
+ 
+ /* h1{color: rgb(10, 1, 29);background-color: aquamarine;
+
+ }
+/* 2.ID selector */
+/* #anyname{
+    color: aqua;
+}#manas{color: blue; border-inline-start-style:solid;} */
+/* 3.class selector */
+/* .classselector{
+    color: rgb(20, 2, 32);
+}.headingstyles{
+    background-color: rgb(191, 157, 157);
+}4. Nested SElector */ 
+/* can mix class and id selector # and . */
+/* Specificity order id>> class>> element !! priority*/
+/* #manas{color: blanchedalmond;}
+.classselector{color: rgb(185, 41, 41);} */
+/* Universal charactor */
+/* *{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} */
+/* 6. DEscendent selector */
+#descsel h2{color: rgb(26, 46, 103);}
